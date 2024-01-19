@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    background-color:rgb(99, 99, 240);
+    color: white;
+    min-height: 100vh;
+    width: 13vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#Menu{
+    font-size: 50px;
+    margin-top: 5vh;
+    margin-left: 2vh;
+}
+header{
+    background-color: rgb(99, 99, 240);
+    color: white;
+    font-size: 60px;
+    width: 87vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+}
+
+#liste{
+    font-size: 25px;
+    list-style-type: none;
+}
+body{
+    display: flex;
+}
+
+li{
+    margin-bottom: 9vh;
+}
+
+.content{
+    display: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.tab-active{
+    color: red;
+    font-weight: bold;
+}
+
+.active{
+    display: block;
+}
+
+.Abonnement{
+    font-size: 28px;
+    margin-top: 12px;
+}

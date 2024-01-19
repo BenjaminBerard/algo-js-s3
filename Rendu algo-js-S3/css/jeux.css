@@ -1,0 +1,78 @@
+body{
+    display: flex;
+}
+*{
+    margin: 0px;
+}
+nav{
+    background-color:rgb(99, 99, 240);
+    color: white;
+    min-height: 100vh;
+    width: 13vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#Menu{
+    font-size: 50px;
+    margin-top: 5vh;
+    margin-left: 2vh;
+}
+header{
+    background-color: rgb(99, 99, 240);
+    color: white;
+    font-size: 60px;
+    width: 87vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+}
+#liste{
+    font-size: 25px;
+    list-style-type: none;
+    margin-top: 11vh;
+}
+.side{
+    margin-bottom: 9vh;
+}
+main{
+    min-height: 85vh;
+    width: 87vw;
+    display: flex;
+}
+img{
+    width: 65%;
+    height: auto;
+}
+#jeux{
+    margin-top: 5vh;
+    list-style-type: none;  
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+.game{
+    width: 42vw;
+    margin-bottom: 4vh;
+}
+
+@media screen and (max-width: 480px){
+    nav{
+        display: none;
+    }
+    header{
+        width: 100vw;
+        font-size: 20px;
+    }
+    #jeux{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

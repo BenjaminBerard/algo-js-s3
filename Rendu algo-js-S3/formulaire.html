@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/formulaire.css">
+</head>
+<body>
+    <nav> 
+        <p id="Menu"> Menu </p>
+        <ul id="liste">
+            <li> <a href="jeux.html"> Jeux</a></li>
+            <li> <a href="tabs.html"> Abonnement Online </a></li>
+            <li> Reverse eshop </li>
+            <li><a href="contacts.html"> Contacts</a></li>
+            <li> Lorem </li>
+            <li> <a href="formulaire.html"> Se connecter </a></li>
+        </ul>
+    </nav>
+    <div>
+        <header>
+            <h1> <a href="index.html"> REVERSE </a></h1>
+        </header>
+
+        <div class="formulaire">
+            <div class="message-error">
+            <ul class="message-error"></ul>
+            </div>
+            <div class="message-success">
+                <li> Formulaire envoyé ! </li>
+            </div>
+
+            <form action="" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="pseudo">Pseudo</label>
+                <input type="text" name="pseudo" id="pseudo">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password">
+            </div>
+
+            <div>
+                <label for="password2">Entrer à nouveau le mot de passe</label>
+                <input type="password2" name="password2" id="password2">
+            </div>
+
+            <button type="submit">S'inscrire</button>
+        </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
